@@ -23,11 +23,26 @@ h2 {
 	margin-right: 50%;
 	color: #ffffff;
 	border: none;
+	font-family: Helvetica;
 	padding: 25px 100px;
-	border-radius: 31px;
-	background: #00077e;
-	box-shadow: 6px 6px 13px #000667, 
-	            -6px -6px 13px #000895;
+	border-radius: 15px;
+	background: linear-gradient(145deg, #000787, #000671);
+	box-shadow: 7px 7px 14px #000440, 
+	            -7px -7px 14px #000abc;
+}
+
+.button1:hover {
+	margin-left: 50%;
+	margin-right: 50%;
+	border: none;
+	color: #ffffff;		
+	font-family: Helvetica;
+	padding: 25px 100px;
+	transition-duration: 0.5s;
+	border-radius: 15px;
+	background: linear-gradient(145deg, #000671, #000787);
+	box-shadow: inset 7px 7px 14px #000440, 
+	            inset -7px -7px 14px #000abc;
 }
 
 .button2 {
@@ -35,21 +50,36 @@ h2 {
 	margin-right: 50%;
 	border: none;
 	color: #ffffff;
+	font-family: Helvetica;
 	padding: 25px 100px;
-	border-radius: 31px;
-	background: #00077e;
-	box-shadow: 11px 11px 22px #00055c, 
-	            -11px -11px 22px #0009a0;
+	border-radius: 15px;
+	background: linear-gradient(145deg, #000787, #000671);
+	box-shadow: 5px 5px 11px #00033e, 
+	            -5px -5px 11px #000bbe;
+}
+
+.button2:hover {
+	margin-left: 50%;
+	margin-right: 50%;
+	border: none;
+	color: #ffffff;		
+	font-family: Helvetica;
+	padding: 25px 100px;
+	transition-duration: 0.5s;
+	border-radius: 15px;
+	background: linear-gradient(145deg, #000671, #000787);
+	box-shadow: inset 5px 5px 11px #00033e, 
+	            inset -5px -5px 11px #000bbe;
 }
 
 .button3 {
 	margin-left: 50%;
 	margin-right: 50%;
-	width: 50px;
 	border: none;
 	color: #ffffff;	
+	font-family: Helvetica;
 	padding: 25px 100px;
-	border-radius: 31px;
+	border-radius: 15px;
 	background: linear-gradient(145deg, #000787, #000671);
 	box-shadow: 7px 7px 20px #00033b, 
 	            -7px -7px 20px #000bc1;
@@ -60,9 +90,10 @@ h2 {
 	margin-right: 50%;
 	border: none;
 	color: #ffffff;		
+	font-family: Helvetica;
 	padding: 25px 100px;
 	transition-duration: 0.5s;
-	border-radius: 31px;
+	border-radius: 15px;
 	background: linear-gradient(145deg, #000671, #000787);
 	box-shadow: inset 7px 7px 20px #00033b, 
 	            inset -7px -7px 20px #000bc1;   
