@@ -45,6 +45,7 @@ h2 {
 .button3 {
 	margin-left: 50%;
 	margin-right: 50%;
+	width: 50px;
 	border: none;
 	color: #ffffff;	
 	padding: 25px 100px;
@@ -58,8 +59,9 @@ h2 {
 	margin-left: 50%;
 	margin-right: 50%;
 	border: none;
-	color: #ffffff;	
+	color: #ffffff;		
 	padding: 25px 100px;
+	transition-duration: 0.5s;
 	border-radius: 31px;
 	background: linear-gradient(145deg, #000671, #000787);
 	box-shadow: inset 7px 7px 20px #00033b, 
