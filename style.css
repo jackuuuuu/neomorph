@@ -21,9 +21,9 @@ h2 {
 .button1 {
 	margin-left: 50%;
 	margin-right: 50%;
+	color: #ffffff;
 	border: none;
-	width: 100px
-	height: 25px;
+	padding: 25px 100px;
 	border-radius: 31px;
 	background: #00077e;
 	box-shadow: 6px 6px 13px #000667, 
@@ -34,8 +34,8 @@ h2 {
 	margin-left: 50%;
 	margin-right: 50%;
 	border: none;
-	width: 100px
-	height: 25px;
+	color: #ffffff;
+	padding: 25px 100px;
 	border-radius: 31px;
 	background: #00077e;
 	box-shadow: 11px 11px 22px #00055c, 
@@ -46,22 +46,22 @@ h2 {
 	margin-left: 50%;
 	margin-right: 50%;
 	border: none;
-	width: 100px
-	height: 25px;
+	color: #ffffff;	
+	padding: 25px 100px;
 	border-radius: 31px;
 	background: linear-gradient(145deg, #000787, #000671);
-	box-shadow: 11px 11px 22px #00055c, 
-	            -11px -11px 22px #0009a0;
+	box-shadow: 7px 7px 20px #00033b, 
+	            -7px -7px 20px #000bc1;
 }
 
 .button3:hover {
 	margin-left: 50%;
 	margin-right: 50%;
 	border: none;
-	width: 100px
-	height: 25px;
+	color: #ffffff;	
+	padding: 25px 100px;
 	border-radius: 31px;
-	background: linear-gradient(145deg, #000787, #000671);
-	box-shadow: inset -11px -11px 22px #0009a0,
-				inset 11px 11px 22px #00055c;      
+	background: linear-gradient(145deg, #000671, #000787);
+	box-shadow: inset -7px -7px 20px #00033b, 
+	            inset 7px 7px 20px #000bc1;   
 }
