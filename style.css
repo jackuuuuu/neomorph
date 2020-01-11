@@ -62,6 +62,6 @@ h2 {
 	padding: 25px 100px;
 	border-radius: 31px;
 	background: linear-gradient(145deg, #000671, #000787);
-	box-shadow: inset -7px -7px 20px #00033b, 
-	            inset 7px 7px 20px #000bc1;   
+	box-shadow: inset 7px 7px 20px #00033b, 
+	            inset -7px -7px 20px #000bc1;   
 }
