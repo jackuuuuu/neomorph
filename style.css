@@ -1,0 +1,45 @@
+body {
+	background-color: #ffffff;
+	color: #000000;
+	font-family: Perpetua;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.button1 {
+	margin-left: 50%;
+	margin-right: 50%;
+	border-radius: 31px;
+	background: #1aebf0;
+	box-shadow: 11px 11px 21px #15bec2, 
+            	-11px -11px 21px #1fffff;
+}
+
+.button2 {
+	margin-left: 50%;
+	margin-right: 50%;
+	border-radius: 31px;
+	background: #1aebf0;
+	box-shadow: 9px 9px 17px #18d6da, 
+	            -9px -9px 17px #1cffff;
+}
+
+.button3 {
+	margin-left: 50%;
+	margin-right: 50%;
+	border-radius: 31px;
+	border-radius: 31px;
+	background: #1aebf0;
+	box-shadow: 6px 6px 13px #15c1c5, 
+	            -6px -6px 13px #1fffff;
+}
