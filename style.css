@@ -22,29 +22,42 @@ h2 {
 
 .button1 {
 	color: #ffffff;
+	outline: none;
 	border: none;
 	font-family: Helvetica;
 	padding: 25px 100px;
 	border-radius: 15px;
 	background: linear-gradient(145deg, #000787, #000671);
-	box-shadow: 7px 7px 14px #000440, 
-	            -7px -7px 14px #000abc;
+	box-shadow: 5px 5px 14px #000440, 
+	            -5px -5px 14px #000abc;
 }
 
 .button1:hover {
 	border: none;
+	outline: none;
 	color: #ffffff;		
 	font-family: Helvetica;
 	padding: 25px 100px;
-	transition-duration: 0.5s;
 	border-radius: 15px;
 	background: linear-gradient(145deg, #000671, #000787);
-	box-shadow: inset 7px 7px 14px #000440, 
-	            inset -7px -7px 14px #000abc;
 }
 
-.button2 {
+.button1:active {
 	border: none;
+	outline: none;
+	color: #ffffff;		
+	font-family: Helvetica;
+	padding: 25px 100px;
+	border-radius: 15px;
+	background: linear-gradient(145deg, #000671, #000787);
+	box-shadow: inset 5px 5px 11px #00033e, 
+	            inset -5px -5px 11px #000bbe;
+}
+
+
+.diverComponent {
+	border: none;
+	outline: none;
 	color: #ffffff;
 	font-family: Helvetica;
 	padding: 25px 100px;
@@ -54,37 +67,17 @@ h2 {
 	            -5px -5px 11px #000bbe;
 }
 
-.button2:hover {
+input::placeholder {
+  color: #A0ffff;
+/*
+.button2Dive {
 	border: none;
 	color: #ffffff;		
 	font-family: Helvetica;
 	padding: 25px 100px;
 	transition-duration: 0.5s;
 	border-radius: 15px;
-	background: linear-gradient(145deg, #000671, #000787);
-	box-shadow: inset 5px 5px 11px #00033e, 
-	            inset -5px -5px 11px #000bbe;
-}
-
-.button3 {
-	border: none;
-	color: #ffffff;	
-	font-family: Helvetica;
-	padding: 25px 100px;
-	border-radius: 15px;
-	background: linear-gradient(145deg, #000787, #000671);
-	box-shadow: 7px 7px 20px #00033b, 
-	            -7px -7px 20px #000bc1;
-}
-
-.button3:hover {
-	border: none;
-	color: #ffffff;		
-	font-family: Helvetica;
-	padding: 25px 100px;
-	transition-duration: 2s;
-	border-radius: 15px;
-	background: linear-gradient(145deg, #000671, #000787);
-	box-shadow: inset 7px 7px 20px #00033b, 
-	            inset -7px -7px 20px #000bc1;   
-}
+	background: #00077e;
+	box-shadow: inset 0px 0px 0px #00077e, 
+	            inset 0px 0px 0px #00077e;
+}*/
