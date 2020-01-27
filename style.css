@@ -1,83 +1,137 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/*dark blue #0438B6      middle #4571FF  light    #A0FFFF     */
+
 body {
-	background-color: #00077e;
-	color: #ffffff;
+	background-color: #0438B6;
 	font-family: Helvetica;
 	text-align: center;
-	width: 100%;
 }
 
 h1 {
 	text-align: center;
 	font-size: 60px;
 	font-weight: bold;
-	color: #ffffff;
+	color: #A0FFFF;
 }
 
 h2 {
 	text-align: center;
 	font-size: 40px;
 	font-weight: bold;
-	color: #ffffff;
+	color: #A0FFFF;
+}
+
+h3 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #A0FFFF;
 }
 
 .button1 {
-	color: #ffffff;
+	color: #A0FFFF;
+	cursor: pointer;
 	outline: none;
 	border: none;
 	font-family: Helvetica;
 	padding: 25px 100px;
 	border-radius: 15px;
-	background: linear-gradient(145deg, #000787, #000671);
-	box-shadow: 5px 5px 14px #000440, 
-	            -5px -5px 14px #000abc;
+	background: linear-gradient(145deg, #043cc3, #0432a4);
+	box-shadow: 5px 5px 11px #03309b, 
+	            -5px -5px 11px #0540d1;
 }
 
 .button1:hover {
 	border: none;
+	cursor: hand;
 	outline: none;
-	color: #ffffff;		
+	color: #A0FFFF;	
+	text-shadow: 0px 0px 10px #A0FFFF;
 	font-family: Helvetica;
 	padding: 25px 100px;
 	border-radius: 15px;
-	background: linear-gradient(145deg, #000671, #000787);
+	background: linear-gradient(145deg, #0432a4, #043cc3);
 }
 
 .button1:active {
 	border: none;
 	outline: none;
-	color: #ffffff;		
+	color: #A0FFFF;		
 	font-family: Helvetica;
 	padding: 25px 100px;
 	border-radius: 15px;
-	background: linear-gradient(145deg, #000671, #000787);
-	box-shadow: inset 5px 5px 11px #00033e, 
-	            inset -5px -5px 11px #000bbe;
+	background: linear-gradient(145deg, #043cc3, #0432a4);
+	box-shadow: 5px 5px 11px #03309b, 
+	            -5px -5px 11px #0540d1,
+	            inset 5px 5px 11px #03309b, 
+	            inset -5px -5px 11px #0540d1;
 }
 
 
-.diverComponent {
-	border: none;
+.input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid;
+	border-color: #A0FFFF;
+	border-bottom-width: 1px;
+	padding-bottom: 5px;
+	height: 20px;
 	outline: none;
-	color: #ffffff;
+	color: #A0FFFF;		
 	font-family: Helvetica;
-	padding: 25px 100px;
+	background: linear-gradient(145deg, #043cc3, #0432a4);
+
+}
+
+#diveIMG1:hover {
+	transform: translateY(-20px);
+	transition-duration: 0.3s;
+}
+
+
+#diveIMG1 {
+	transition-duration: 0.3s;
+}
+
+.diverComponent {
+	border: solid;
+	border-color: #0438B6;
+	border-width: 2px;
+	outline: none;
+	padding: 10%;
+	color: #A0FFFF;
+	font-family: Helvetica;
 	border-radius: 15px;
-	background: linear-gradient(145deg, #000787, #000671);
-	box-shadow: 5px 5px 11px #00033e, 
-	            -5px -5px 11px #000bbe;
+	background: linear-gradient(145deg, #043cc3, #0432a4);
+	box-shadow: 5px 5px 11px #03309b, 
+	            -5px -5px 11px #0540d1,
+	            inset 5px 5px 11px #03309b, 
+	            inset -5px -5px 11px #0540d1;
+}
+
+/* Create three equal columns that floats next to each other */
+.column3 {
+  float: right;
+  width: 31%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 input::placeholder {
-  color: #A0ffff;
-/*
-.button2Dive {
-	border: none;
-	color: #ffffff;		
-	font-family: Helvetica;
-	padding: 25px 100px;
-	transition-duration: 0.5s;
-	border-radius: 15px;
-	background: #00077e;
-	box-shadow: inset 0px 0px 0px #00077e, 
-	            inset 0px 0px 0px #00077e;
-}*/
+  color: #4571FF;
+}

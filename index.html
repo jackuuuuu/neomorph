@@ -1,4 +1,4 @@
-<!doctype html>
+  <!doctype html>
 <html> 
   <head> 
     <title>nexten neomorphic testing</title> 
@@ -16,25 +16,60 @@
   	<h2>
       diving test
     </h2>
-    <button id="button1" class="button1" onclick="dive1(); dive2(); dive3();">
+    <button id="button1" class="button1" style="opacity: 100;" onclick="dive1(); dive2(); dive3(); dive4(); dive5(); dive6(); diveIMG1(); diveIMG2(); bringBack()">
       Click me to <strong>dive</strong> the component, <em>biatch</em>!
     </button>
     <br>
     <br>
     <br>
+    <button id="bringB" class="button1" style="opacity: 0;" onclick="br1(); dive2(); dive3(); dive4(); dive5(); dive6(); diveIMG1(); diveIMG2();">
+      <strong>OMGGGG!!!</strong> bring them <em>baaack</em>!
+    </button>
     <br>
     <br>
     <br>
-    <div id="diver1" class="diverComponent" style="width: 200px; height: 200px;">
-      diver 1
-      <img id="diver2" style="height: 75%; opacity: 100;" src="https://vignette.wikia.nocookie.net/final-space/images/6/64/Mooncake-MP.png/revision/latest/window-crop/width/500/x-offset/0/y-offset/0/window-width/281/window-height/281?cb=20180314071330">
-      <p id="diver1">choooookedi</p>
+<!--     <div class="row">
+      <div class="col3">
+        <div id="diver1" class="diverComponent" style="width: 200px; height: 200px; float: left;">
+          diver 1
+          <img id="diver2" style="height: 75%; opacity: 100;" src="https://vignette.wikia.nocookie.net/final-space/images/6/64/Mooncake-MP.png/revision/latest/window-crop/width/500/x-offset/0/y-offset/0/window-width/281/window-height/281?cb=20180314071330">
+          <p id="diver1">choooookedi</p>
+        </div>
+      </div>
+      <div class="col3">
+        <label id="diver3" for="favAss">What's your favorite ass?</label>
+        <br>
+        <br>
+        <input name="favAss" id="diver4" class="diverComponent">
+      </div>
+      <div  class="col3">
+        <p class="diverComponent">diver 1</p>
+      </div>
+    </div> -->
+    <div class="row">
+      <div class="column3">
+        <div id="diver1" class="diverComponent">
+          <p id="diver2" style=" text-align: center; font-size: 20px; font-weight: bold;" id="diver2">
+            choooookedi
+          </p>
+          <img id="diveIMG1" onclick="chookedi()" style="cursor: pointer; width: 50%; opacity: 100;" src="https://vignette.wikia.nocookie.net/final-space/images/6/64/Mooncake-MP.png/revision/latest/window-crop/width/500/x-offset/0/y-offset/0/window-width/281/window-height/281?cb=20180314071330">
+        </div>
+      </div>
+      <div class="column3">
+        <div id="diver3" class="diverComponent">
+          <label id="diver4" for="favAss">What's your favorite ass?</label>
+          <br>
+          <br>
+          <input id="diver5" placeholder="a clean one" name="favAss" id="diver4" class="input">
+        </div>
+      </div>
+      <div class="column3">
+        <div id="diver6" class="diverComponent" style="padding: 10px">
+          <img id="diveIMG2" style="width: 100%; border-radius: 15px; padding:2px; opacity: 100;" src="https://i.ytimg.com/vi/Fy2wlCa31-M/maxresdefault.jpg">
+        </div>
+      </div>
     </div>
-      <label id="diver3" for="favAss">What's your favorite ass?</label>
-      <br>
-      <br>
-      <input type="text" name="favAss" id="diver3" class="diverComponent" placeholder="A clean one">
-    </div>
+
     <br>
     <br>
     <br>
