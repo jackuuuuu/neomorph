@@ -92,8 +92,22 @@ h3 {
 }
 
 #diveIMG1:hover {
-	transform: translateY(-20px);
-	transition-duration: 0.3s;
+/*	transform: translateY(-20px);
+	transition-duration: 0.3s;*/
+	animation-duration: 0.5s;
+  	animation-name: jump;
+  	animation-iteration-count: infinite;
+  	animation-direction: alternate;
+}
+
+
+@keyframes jump {
+	50% {
+		transform: rotate(360deg);
+	}
+	100% {
+	transform: translateY(-100px) scale(1.5);
+  }
 }
 
 
