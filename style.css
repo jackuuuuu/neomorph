@@ -87,8 +87,11 @@ h3 {
 	outline: none;
 	color: #A0FFFF;		
 	font-family: Helvetica;
-	background: linear-gradient(145deg, #043cc3, #0432a4);
+	background: none;
+}
 
+input::placeholder {
+  color: #4571FF;
 }
 
 #diveIMG1:hover {
@@ -131,21 +134,24 @@ h3 {
 	            inset -5px -5px 11px #0540d1;
 }
 
-/* Create three equal columns that floats next to each other */
+
+
+.row {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+
 .column3 {
-  float: right;
-  width: 31%;
+  width: 33.33%;
   padding: 10px;
 
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-input::placeholder {
-  color: #4571FF;
-}
