@@ -19,7 +19,7 @@ function dive() {
         console.log(element);
         element.style.borderBottomColor = "#0438B6";
         element.style.background = "#0438B6";
-        element.style.placeholder = "#0438B6";
+        element.classList.add("hidden");
         element.style.transitionDuration = "2s";
     })  
     //     const bringBack = document.getElementsByClassName("bringBack");

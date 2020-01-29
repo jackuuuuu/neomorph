@@ -155,3 +155,7 @@ input::placeholder {
   clear: both;
 }
 
+.hidden::placeholder, .hidden::-webkit-input-placeholder{
+    color: #0438B6;
+    transition-duration: 2s;
+}
