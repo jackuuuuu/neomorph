@@ -38,4 +38,3 @@ const audio = new Audio('./chookedi.mp3');
 function chookedi() {    
     audio.play();    
 }
-

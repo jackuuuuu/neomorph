@@ -35,6 +35,128 @@ h3 {
 	color: #A0FFFF;
 }
 
+/*#edebec
+background: linear-gradient(145deg, #fefbfd, #d5d4d4);*/
+
+
+.cardBackground {
+	margin-top: 250px;
+	margin-left: 30%;
+	width: 256px;
+	height: 400px;
+	border: none;
+	border-color: #ffffff;
+	border-width: 1px;	
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	background: linear-gradient(145deg, #edebec, #edebec);
+	box-shadow: 2px 5px 4px  #d5d4d4, 
+	            -2px -5px 4px #ffffff;
+	outline: none;
+	color: #808080;
+	font-family: Helvetica;
+}
+
+.cardBackground:hover {
+	box-shadow: inset 2px 5px 4px  #d5d4d4, 
+	            inset -2px -5px 4px #ffffff;
+	}
+
+.title {
+	color: #000000;
+	font-size: 18px;
+	margin-left: 16px;
+	margin-bottom: 11px;
+	margin-top: 11px;
+	text-align: left;
+}
+
+.title:hover {
+	color: #ffffff;
+}
+
+.generals{
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 5px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.generals:hover {
+	color: #04023e;
+}
+
+.skill {
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 5px;
+	margin-left: 16px;
+}
+
+.skill:hover {
+	color: #04023e;
+}
+
+.sliderBottom {
+	border-radius: 100px;
+	height: 8px;
+	width: 100%;
+	display: flex;
+	margin-bottom: 20px;
+	padding: 0px;
+	background: linear-gradient(145deg, #edebec, #edebec);
+	box-shadow: 2px 5px 4px  #d5d4d4, 
+	            -2px -5px 4px #ffffff;
+}
+
+.sliderBottom:hover {
+	background: #6433f2;
+}
+
+.sliderTop {
+	background: #6433f2;
+	width: 100%;
+	margin: 2px;
+	border-radius: 100px;
+}
+
+.sliderTop:hover {
+	background: #A0FFFF;
+}
+
+
+.rowCard {
+  content: "";
+  display: flex;
+  clear: both;
+  display: flex;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 10px;
+}
+
+.rowCard:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnCardLeft {
+	width: 62%;
+	margin-right: 16px;
+}
+
+.columnCardRight {
+	width: 38%;
+	margin-top: 12px;
+}
+
+
+
 .button1 {
 	color: #A0FFFF;
 	cursor: pointer;
@@ -74,7 +196,6 @@ h3 {
 	            inset -5px -5px 11px #0540d1;
 }
 
-
 .input {
 	border-top: none;
 	border-left: none;
@@ -94,15 +215,17 @@ input::placeholder {
   color: #4571FF;
 }
 
+.hidden::placeholder, .hidden::-webkit-input-placeholder{
+    color: #0438B6;
+    transition-duration: 2s;
+}
+
 #diveIMG1:hover {
-/*	transform: translateY(-20px);
-	transition-duration: 0.3s;*/
 	animation-duration: 0.5s;
   	animation-name: jump;
   	animation-iteration-count: infinite;
   	animation-direction: alternate;
 }
-
 
 @keyframes jump {
 	50% {
@@ -134,19 +257,10 @@ input::placeholder {
 	            inset -5px -5px 11px #0540d1;
 }
 
-
-
 .row {
   content: "";
   display: flex;
   clear: both;
-}
-
-
-.column3 {
-  width: 33.33%;
-  padding: 10px;
-
 }
 
 .row:after {
@@ -155,7 +269,9 @@ input::placeholder {
   clear: both;
 }
 
-.hidden::placeholder, .hidden::-webkit-input-placeholder{
-    color: #0438B6;
-    transition-duration: 2s;
+
+.column3 {
+  width: 33.33%;
+  padding: 10px;
+
 }
