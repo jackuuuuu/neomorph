@@ -39,7 +39,7 @@ h3 {
 background: linear-gradient(145deg, #fefbfd, #d5d4d4);*/
 
 
-.cardBackground {
+.cardBackground1 {
 	margin-top: 250px;
 	margin-left: 30%;
 	width: 256px;
@@ -47,9 +47,9 @@ background: linear-gradient(145deg, #fefbfd, #d5d4d4);*/
 	border: none;
 	border-color: #ffffff;
 	border-width: 1px;	
-	border-bottom-right-radius: 30px;
-	border-bottom-left-radius: 30px;
-	border-top-left-radius: 30px;
+	border-bottom-right-radius: 16px;
+	border-bottom-left-radius: 16px;
+	border-top-left-radius: 16px;
 	background: linear-gradient(145deg, #edebec, #edebec);
 	box-shadow: 2px 5px 4px  #d5d4d4, 
 	            -2px -5px 4px #ffffff;
@@ -58,46 +58,85 @@ background: linear-gradient(145deg, #fefbfd, #d5d4d4);*/
 	font-family: Helvetica;
 }
 
-.cardBackground:hover {
+.cardBackground1:hover {
 	box-shadow: inset 2px 5px 4px  #d5d4d4, 
 	            inset -2px -5px 4px #ffffff;
-	}
+}
+
+.cardBackground2 {
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;	
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+	background: linear-gradient(145deg, #edebec, #edebec);
+	outline: none;
+	color: #808080;
+	font-family: Helvetica;
+}
+
+.cardBackground1:hover .cardBackground2 {
+	background: linear-gradient(145deg, #6433f2, #6433f2);
+}
+
+.cardImgBackground { 
+	width: 240px; 
+    height: 232px;
+    background: #ffffff;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+    display: flex;
+    padding: 0px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.cardBackground1:hover .cardImgBackground {
+	background: #040240;
+}
+
+.profilePic {
+	width: 224px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+
+.cardBackground1:hover .profilePic {
+	filter: sepia(10%) hue-rotate(190deg) saturate(100%) blur(2px);
+}
 
 .title {
 	color: #000000;
-	font-size: 18px;
-	margin-left: 16px;
-	margin-bottom: 11px;
-	margin-top: 11px;
-	text-align: left;
-}
-
-.title:hover {
-	color: #ffffff;
-}
-
-.generals{
-	text-align: left;
-	font-size: 12px;
+	font-size: 16px;
+	line-height: 16px;
 	font-weight: bold;
-	line-height: 5px;
-	margin-top: 0px;
-	margin-left: 0px;
+	margin-left: 12px;
+	margin-top: 6px;
+	margin-bottom: 0px;
+	text-align: left;
 }
 
-.generals:hover {
-	color: #04023e;
+.cardBackground1:hover .title {
+	color: #ffffff;
 }
 
 .skill {
 	text-align: left;
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: bold;
-	line-height: 5px;
-	margin-left: 16px;
+	line-height: 10px;
+	margin-left: 8px;
+	margin-bottom: 12px;
+	margin-top: 0px;
 }
 
-.skill:hover {
+.cardBackground1:hover .skill {
 	color: #04023e;
 }
 
@@ -106,15 +145,18 @@ background: linear-gradient(145deg, #fefbfd, #d5d4d4);*/
 	height: 8px;
 	width: 100%;
 	display: flex;
-	margin-bottom: 20px;
+	margin-bottom: 18px;
+	margin-left: 4px;
 	padding: 0px;
 	background: linear-gradient(145deg, #edebec, #edebec);
 	box-shadow: 2px 5px 4px  #d5d4d4, 
 	            -2px -5px 4px #ffffff;
 }
 
-.sliderBottom:hover {
+.cardBackground1:hover .sliderBottom {
 	background: #6433f2;
+	box-shadow: 2px 5px 4px  #552bce, 
+	            -2px -5px 4px #733bff;
 }
 
 .sliderTop {
@@ -124,19 +166,45 @@ background: linear-gradient(145deg, #fefbfd, #d5d4d4);*/
 	border-radius: 100px;
 }
 
-.sliderTop:hover {
+.cardBackground1:hover .sliderTop {
 	background: #A0FFFF;
 }
 
+.generalsTitle{
+	text-align: left;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 10px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 8px;
+}
+
+
+.cardBackground1:hover .generalsTitle {
+	color: #04023e;
+}
+
+.generals {
+	color: #000000;
+	text-align: left;
+	font-size: 12px;
+	line-height: 12px;
+	margin-bottom: 18px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.cardBackground1:hover .generals {
+	color: #ffffff;
+}
 
 .rowCard {
   content: "";
   display: flex;
   clear: both;
   display: flex;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-top: 10px;
+  margin-right: 8px;
 }
 
 .rowCard:after {
@@ -152,7 +220,6 @@ background: linear-gradient(145deg, #fefbfd, #d5d4d4);*/
 
 .columnCardRight {
 	width: 38%;
-	margin-top: 12px;
 }
 
 
