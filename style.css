@@ -100,15 +100,68 @@ background: linear-gradient(145deg, #fefbfd, #d5d4d4);*/
 	background: #040240;
 }
 
+
+.cardImgBackground2 {
+	margin: 0px; 
+	padding: 0px;
+	position: relative;
+}
+
+
 .profilePic {
 	width: 224px;
 	margin-left: 8px;
 	margin-right: 8px;
 	margin-top: 8px;
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
 }
 
 .cardBackground1:hover .profilePic {
-	filter: sepia(10%) hue-rotate(190deg) saturate(100%) blur(2px);
+	filter: sepia(10%) hue-rotate(190deg) saturate(100%) blur(1px);
+	transition: .5s ease;
+
+}
+
+.backgroundButtonsOnProfilePic {
+	transition: .1s ease-out;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	background: transparent;
+
+}
+.cardBackground1:hover .backgroundButtonsOnProfilePic {
+	opacity: 1;
+}
+	
+
+.buttonsOnProfilePic {
+	color: #ffffff;
+	background: #6433f2;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	width: 200px;
+	padding: 12px 0px 12px 0px;
+	background: 040240;
+	font-family: Helvetica;
+	font-size: 20px;
+	border-radius: 4px;
+	box-shadow: inset 2px 5px 4px  #552bce, 
+				inset -2px -5px 4px #733bff;
+}
+
+.buttonsOnProfilePic:hover {
+	background: #040240;
+	box-shadow: inset 2px 5px 4px  #000000, 
+				inset -2px -5px 4px #04023e;
 }
 
 .title {
