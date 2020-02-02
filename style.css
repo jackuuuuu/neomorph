@@ -154,14 +154,11 @@ background: linear-gradient(145deg, #fefbfd, #d5d4d4);*/
 	font-family: Helvetica;
 	font-size: 20px;
 	border-radius: 4px;
-	box-shadow: inset 2px 5px 4px  #552bce, 
-				inset -2px -5px 4px #733bff;
 }
 
 .buttonsOnProfilePic:hover {
-	background: #040240;
-	box-shadow: inset 2px 5px 4px  #000000, 
-				inset -2px -5px 4px #04023e;
+	box-shadow: inset 2px 5px 4px  #552bce, 
+				inset -2px -5px 4px #733bff;
 }
 
 .title {
